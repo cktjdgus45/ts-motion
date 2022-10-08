@@ -97,6 +97,7 @@ body {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .document {
