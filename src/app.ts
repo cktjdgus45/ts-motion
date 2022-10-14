@@ -21,6 +21,10 @@ class App {
         this.page.addChild(new VideoComponent('Video Title', "https://youtu.be/Z8FT67j2iiE"))
         this.page.addChild(new NoteComponent('Note Title', 'Note Content'));
         this.page.addChild(new TaskComponent('Task Title', 'Task Content'));
+        this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'))
+        this.page.addChild(new VideoComponent('Video Title', "https://youtu.be/Z8FT67j2iiE"))
+        this.page.addChild(new NoteComponent('Note Title', 'Note Content'));
+        this.page.addChild(new TaskComponent('Task Title', 'Task Content'));
 
         this.bindElementToDialog<MediaSectionInput>(
             '#new-image',
